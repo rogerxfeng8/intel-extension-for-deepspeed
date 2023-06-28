@@ -14,7 +14,7 @@ Optional: need to install [oneAPI Base Toolkit Packages](https://www.intel.com/c
 
 1. Install Intel® Extension for DeepSpeed*
 ```python
-pip install intel-extension-for-pytorch
+pip install intel-extension-for-deepspeed
 ```
  Or, you can build from source:
 ```python
