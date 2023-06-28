@@ -18,7 +18,7 @@ pip install intel-extension-for-pytorch
 ```
  Or, you can build from source:
 ```python
-source {DPCPPROOT}/env/vars.sh
+source ${DPCPPROOT}/env/vars.sh
 python setup.py install
 ```
 Generally, DPCPPROOT is /opt/intel/oneapi/compiler/latest for root account, ${HOME}/intel/oneapi/compiler/latest for other accounts.
