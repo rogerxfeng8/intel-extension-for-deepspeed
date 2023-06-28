@@ -8,11 +8,9 @@ DeepSpeed would automatically use Intel® Extension for DeepSpeed* when it is in
 
 ## Installation
 
-Optional: need to install [oneAPI Base Toolkit Packages](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html) when using Kernel Injection for inference
+1. Install Intel® Extension for PyTorch* [Installation Guide](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/installation.html) 
 
-`Intel® oneAPI DPC++/C++ Compiler` is required by OP builders to support the JIT build for Kernel Injection.
-
-1. Install Intel® Extension for DeepSpeed*
+2. Install Intel® Extension for DeepSpeed*
 ```python
 pip install intel-extension-for-deepspeed
 ```
@@ -23,7 +21,7 @@ python setup.py install
 ```
 Generally, DPCPPROOT is /opt/intel/oneapi/compiler/latest for root account, ${HOME}/intel/oneapi/compiler/latest for other accounts.
 
-2. Install DeepSpeed
+3. Install DeepSpeed
 
 ```python
 pip install deepspeed
