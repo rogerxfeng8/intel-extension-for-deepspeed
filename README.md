@@ -23,7 +23,7 @@ python setup.py install
 ```
 Generally, DPCPPROOT is /opt/intel/oneapi/compiler/latest for root account, ${HOME}/intel/oneapi/compiler/latest for other accounts.
 
-3. Install DeepSpeed
+2. Install DeepSpeed
 
 ```python
 pip install deepspeed
