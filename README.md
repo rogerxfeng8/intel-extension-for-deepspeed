@@ -8,7 +8,7 @@ DeepSpeed would automatically use Intel® Extension for DeepSpeed* when it is in
 
 ## Installation
 
-1. Install Intel® Extension for PyTorch* [Installation Guide](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/installation.html) 
+1. Install Intel® Extension for PyTorch* following [Installation Guide](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/installation.html) 
 
 2. Install Intel® Extension for DeepSpeed*
 ```python
